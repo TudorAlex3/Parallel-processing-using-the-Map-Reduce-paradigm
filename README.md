@@ -1,6 +1,6 @@
 # Parallel-processing-using-the-Map-Reduce-paradigm
 
-This is the implementation of an n-parallel program in Pthreads for finding numbers greater than 0 that are perfect powers from a set of files and counting unique values for each exponent.
+This is the implementation of a parallel program in Pthreads for finding numbers greater than 0 that are perfect powers from a set of files and counting unique values for each exponent.
 
 To parallelize the processing of input documents, the Map-Reduce model is used. The input files are divided (dynamically) as evenly as possible among a set of threads that will parse and check for numbers greater than 0 that are perfect powers (Map operation), resulting in partial lists for each exponent (e.g., lists for perfect squares, lists for perfect cubes, etc.). The next step is to combine the partial lists (Reduce operation), resulting in aggregated lists for each exponent. For each such list, unique values are counted in parallel, and the results are then written to output files. <br>
 
