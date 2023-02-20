@@ -16,7 +16,7 @@ Starting from the list of documents to be processed, each Mapper will end up pro
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* open the file and read it line by line. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* for each integer read, check if it is a perfect power of 2, 3, 4, etc., up to the maximum exponent (given by the number of Reducer threads). <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* each value greater than 0 that is a perfect power with an exponent E is saved to a partial list (if a value is a perfect power for multiple exponents E, it will be placed in multiple partial lists). <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* when a file has been processed, the Mapper closes. <br> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* when a file has been processed, the Mapper closes. <br>
 
 
 ### Reduce Operations
