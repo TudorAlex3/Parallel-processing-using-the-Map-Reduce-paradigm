@@ -1,5 +1,6 @@
 # Parallel-processing-using-the-Map-Reduce-paradigm
 
+
 <p align="justify">
 This is the implementation of a parallel program in Pthreads for finding numbers greater than 0 that are perfect powers from a set of files and counting unique values for each exponent.
 </p>
